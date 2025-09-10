@@ -609,6 +609,7 @@ body {
     color: white;
     position: relative;
     overflow: hidden;
+    padding-top: 80px;
 }
 
 .hero-badge {
@@ -1537,6 +1538,8 @@ body {
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
+    min-width: 80px;
+    text-align: center;
 }
 
 .amount-btn:hover,
@@ -1982,34 +1985,83 @@ body {
         left: -100%;
         top: 70px;
         flex-direction: column;
-        background-color: white;
+        background: white;
         width: 100%;
         text-align: center;
         transition: 0.3s;
         box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
-        padding: 2rem 0;
+        z-index: 1000;
     }
 
     .nav-menu.active {
         left: 0;
     }
 
+    .nav-menu li {
+        margin: 1rem 0;
+    }
+
     .hero {
         min-height: 80vh;
-        padding: 100px 0 60px;
+        padding: 120px 0 60px;
     }
 
     .hero-title {
         font-size: 2.5rem;
     }
 
-    .hero-buttons {
-        flex-direction: column;
-        align-items: center;
+    .hero-subtitle {
+        font-size: 1.1rem;
     }
 
-    .hero-stats {
+    .hero-buttons {
+        margin-bottom: 2rem;
+    }
+
+    .btn {
+        padding: 1rem 2rem;
+        font-size: 1rem;
+    }
+
+    .section-header h2 {
+        font-size: 2rem;
+    }
+
+    .impact-stats {
+        grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
+    }
+
+    .form-row {
+        flex-direction: column;
+    }
+
+    .donation-amounts {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.8rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .amount-btn {
+        width: 100% !important;
+        max-width: 250px;
+        font-size: 1.1rem !important;
+        padding: 1rem 1.5rem !important;
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        border: 2px solid #667eea !important;
+        background: transparent !important;
+        color: #667eea !important;
+        border-radius: 50px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .testimonial-grid {
+        grid-template-columns: 1fr;
     }
 
     .about-content {
@@ -2027,18 +2079,7 @@ body {
         gap: 2rem;
     }
 
-    .form-row {
-        flex-direction: column;
-    }
 
-    .donation-amounts {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .testimonial-grid {
-        grid-template-columns: 1fr;
-    }
 
     .challenges-grid {
         grid-template-columns: 1fr;
@@ -2083,7 +2124,7 @@ body {
     .hero {
         height: auto;
         min-height: 100vh;
-        padding: 2rem 0;
+        padding: 100px 0 2rem;
     }
 
     .hero-content {
@@ -2124,7 +2165,7 @@ body {
 
 @media (max-width: 480px) {
     .hero {
-        padding: 1rem 0;
+        padding: 90px 0 1rem;
     }
 
     .hero-title {
