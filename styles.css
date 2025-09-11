@@ -46,21 +46,48 @@ body {
 }
 
 .logo-icon {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    width: 80px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
-    font-size: 1.2rem;
+}
+
+.logo-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.logo-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
 }
 
 .logo-text {
     font-size: 1.5rem;
     font-weight: 700;
     color: #2d3748;
+}
+
+.logo-slogan {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #667eea;
+    letter-spacing: 1px;
+}
+
+.footer-title-container h3 {
+    margin-bottom: 0.3rem;
+}
+
+.footer-slogan {
+    font-size: 0.9rem;
+    color: #667eea;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 0;
 }
 
 .nav-menu {
@@ -1851,9 +1878,14 @@ body {
 }
 
 .footer-logo .logo-icon {
-    width: 50px;
-    height: 50px;
-    font-size: 1.5rem;
+    width: 90px;
+    height: 90px;
+}
+
+.footer-logo .logo-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .footer-mission {
@@ -1972,6 +2004,24 @@ body {
 .footer-bottom a {
     color: #667eea;
     text-decoration: none;
+}
+
+/* Mobile Logo Sizing */
+@media (max-width: 768px) {
+    .logo-icon {
+        width: 100px;
+        height: 120px;
+    }
+    
+    .footer-logo .logo-icon {
+        width: 110px;
+        height: 130px;
+    }
+    
+    .loading-logo {
+        width: 140px;
+        height: 160px;
+    }
 }
 
 /* Responsive Design */
@@ -2240,19 +2290,24 @@ html {
 }
 
 .loading-logo {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.2);
+    width: 120px;
+    height: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto 2rem;
+    margin-bottom: 1rem;
     animation: pulse 2s infinite;
 }
 
 .loading-logo i {
     font-size: 2rem;
+    animation: heartbeat 1.5s infinite;
+}
+
+.loading-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
     animation: heartbeat 1.5s infinite;
 }
 

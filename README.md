@@ -1,13 +1,16 @@
-# iCARE and Hope Foundation Website
+# iCARE Global Community Foundation Website
+**Engage • Empower • Enrich**
 
 ## Project Overview
-A comprehensive website for the iCARE and Hope Foundation (i-Care and Hope Foundation), a non-profit organization dedicated to engaging communities, empowering individuals, and enriching lives across Zimbabwe through holistic programs promoting education, health, psychosocial well-being, and economic empowerment.
+A comprehensive website for the iCARE Global Community Foundation - a beacon of hope for vulnerable girls worldwide. From Zimbabwe to the UK and beyond, we bring light where there is darkness and spark dreams back to life. We are not bound by borders—our heart beats across the world.
+
+**Our Approach: Engage • Empower • Enrich**
 
 ## Mission
-To engage communities, empower individuals, and enrich lives through holistic programs that promote education, health, psychosocial well-being, and economic empowerment—especially for vulnerable and underserved populations in Zimbabwe.
+To be a beacon of hope for vulnerable girls worldwide, engaging communities globally to empower individuals and enrich lives through holistic programs that promote education, health, psychosocial well-being, and economic empowerment—from Zimbabwe to the UK and beyond.
 
 ## Vision
-A caring and inclusive Zimbabwe where every person, regardless of background or status, is empowered to thrive with dignity, resilience, and hope.
+A world where every vulnerable girl, regardless of borders or background, has the opportunity to thrive with dignity, resilience, and hope. Where darkness gives way to light, and dying dreams are sparked back to life.
 
 ## Features
 - **Responsive Design**: Mobile-first approach with hamburger navigation
@@ -59,12 +62,11 @@ i-care-and-hope-foundation/
 - Support for GBV Survivors & Vulnerable Children
 - Youth Development, Sports & Talent Nurturing
 - School Re-entry Support & Alternative Learning
-- Support for Incarcerated Youth & Prisoners
 
 ## Contact Information
 - **WhatsApp**: +44 7424 716713 (Preferred)
 - **Email**: info@icarefoundation.org
-- **Location**: Zimbabwe (Serving communities nationwide)
+- **Location**: Global reach from Zimbabwe to the UK and beyond
 
 ## Usage
 Simply open `index.html` in any modern web browser. The website is fully functional with:
@@ -97,4 +99,4 @@ To contribute to this project:
 - Impact tracking dashboard
 
 ## License
-© 2024 iCARE and Hope Foundation (i-Care and Hope Foundation). All rights reserved.
+© 2024 iCARE Global Community Foundation. All rights reserved.

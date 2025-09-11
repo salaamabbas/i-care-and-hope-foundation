@@ -465,7 +465,7 @@ window.addEventListener('scroll', requestParallaxUpdate);
 
 // Initialize all functionality when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('iCARE and Hope Foundation website loaded successfully!');
+    console.log('iCARE Global Community Foundation website loaded successfully!');
     
     // Initialize enhanced features
     initSearch();
